@@ -1,0 +1,117 @@
+[2:56 PM] Thanesh  (Guest)
+
+
+
+
+1) // data types : and its size
+ 
+    byte 
+
+
+    short 
+
+
+    int 
+
+
+    long 
+
+
+    float 
+
+
+    double 
+ 
+
+
+
+2 ) // statmetns : 
+ 
+    if, if else , switch , 
+
+
+    loops ing :     for , while , do while 
+
+
+    jumping : break continue, return  
+ 
+
+
+
+//3) Operators : 
+
+
+    arthematics (+ ,- , * ,  / ) 
+
+
+    logical operation ( && ,|| , !)
+
+
+    conditional opertatoes(<= , > = , == , )
+
+
+    bitwisw operators
+
+
+    assignmsnt operators : int a =1
+
+
+[2:57 PM] Thanesh  (Guest)
+
+
+
+
+1) // data types : and its size
+ 
+    byte 
+
+
+    short 
+
+
+    int 
+
+
+    long 
+
+
+    float 
+
+
+    double 
+ 
+
+
+
+2 ) // statmetns : 
+ 
+    if, if else , switch , 
+
+
+    loops ing :     for , while , do while 
+
+
+    jumping : break continue, return  
+ 
+
+
+
+//3) Operators : 
+
+
+    arthematics (+ ,- , * ,  / ) 
+
+
+    logical operation ( && ,|| , !)
+
+
+    conditional opertatoes(<= , > = , == , )
+
+
+    bitwisw operators
+
+
+    assignmsnt operators : int a =1
+
+
+            I
