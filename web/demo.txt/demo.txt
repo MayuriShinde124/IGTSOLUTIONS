@@ -1,0 +1,25 @@
+demo.txt
+  Java (Security )           JAVA Script 
+        logic                   logic 
+ 
+        Server                  client side + server side  
+ 
+        programing              Scripting 
+ 
+        Compiler                no compiler 
+            run                     run 
+ 
+        Slow                       Fast 
+ 
+        Strict                     not much strcit 
+ 
+        OOPL                        object based 
+js 
+    Angualr JS 
+    React.JS 
+    Node JS
+    express JS 
+    vew JS 
+    backbon JS 
+    venilla JS 
+        .js 

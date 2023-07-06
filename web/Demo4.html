@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc()
+        {
+            firstname=document.f1.fn.value;
+            lastname=document.f1.ln.value;
+            fullname=firstname+" "+lastname;
+            document.f1.full.value=fullname;
+        }
+        function xyz()
+        {
+            document.getElementById('fn').style.backgroundColor="lightblue"
+        }
+        function atoz()
+        {
+            document.getElementById('fn').style.backgroundColor="pink"
+        }
+        function bgclr(value)
+        {
+            document.getElementById('bgc').style.backgroundColor=value
+        }
+     
+        </script>
+</head>
+<body id="bgc">
+    <marquee onmouseover="stop()" onmouseout="start()"><h1>hii welcome to web application</h1></marquee>
+
+    <div style="text-align: center;">
+        <h1>hii please login</h1>
+       <form name="f1">
+        First Name :<input type="text" name="fn" id="fn" onfocus="xyz()" onblur="atoz()"><br>
+        Last Name :<input type="text" name="ln"><br>
+        Fullname:<input type="text" name="full" onfocus="abc()"><br>
+        <input type="button" value="click" onclick="abc()">
+        <input type="button" value="double click" ondblclick="abc()">
+        <select onchange="bgclr(value)">
+            <option>COLOR</option>
+            <option value="red">Red</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="pink">pink</option>
+            <option value="orange">orange</option>
+            </select>    
+    </form>
+
+    
+        </div>
+    
+</body>
+</html>

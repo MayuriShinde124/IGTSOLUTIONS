@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc()
+        {
+            firstname=document.f1.fn.value;
+            lastname=document.f1.ln.value;
+            fullname=firstname+" "+lastname;
+            document.f1.full.value=fullname;
+
+        }
+        function add()
+        {
+            a=parseInt(document.f2.a.value);
+            b=parseInt(document.f2.b.value);
+            result=a+b;
+            document.f2.result.value=result;
+
+        }
+        function sub()
+        {
+            a=parseInt(document.f2.a.value);
+            b=parseInt(document.f2.b.value);
+            result=a-b;
+            document.f2.result.value=result;
+
+        }
+        function mul()
+        {
+            a=parseInt(document.f2.a.value);
+            b=parseInt(document.f2.b.value);
+            result=a*b;
+            document.f2.result.value=result;
+
+        }
+        function div()
+        {
+            a=parseInt(document.f2.a.value);
+            b=parseInt(document.f2.b.value);
+            result=a/b;
+            document.f2.result.value=result;
+
+        }
+        </script>
+</head>
+<body>
+    <marquee onmouseover="stop()" onmouseout="start()"><h1>hii welcome to web application</h1></marquee>
+
+    <div style="text-align: center;">
+        <h1>hii please login</h1>
+       <form name="f1">
+        First Name :<input type="text" name="fn"><br>
+        Last Name :<input type="text" name="ln"><br>
+        Fullname:<input type="text" name="full"><br>
+        <input type="button" value="LOGIN" onclick="abc()">    
+    </form>
+
+    <form name="f2">
+        A :<input type="text" name="a"><br>
+       B :<input type="text" name="b"><br>
+        Result:<input type="text" name="result"><br>
+        <input type="button" value="add" onclick="add()">    
+        <input type="button" value="sub" onclick="sub()"> 
+        <input type="button" value="mul" onclick="mul()"> 
+        <input type="button" value="div" onclick="div()"> 
+    </form>
+        </div>
+    
+</body>
+</html>

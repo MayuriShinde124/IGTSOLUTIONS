@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+  function valid()
+  {
+  var name=document.getElementById('uname').value;
+  if(name.length==0 || name.length==undefined || name.length==null)
+  {
+
+    //alert("name must requird......!")
+    document.getElementById('msg').innerHTML="<i style='color:red'>Name must be required</i><br>"
+  }
+  else if(name.length>=0 && name.length<=3)
+  {
+    document.getElementById('msg').innerHTML="<i style='color:red'>Name must be min 3 char</i><br>"     
+  }
+  else if(name.length>=10)
+  {
+    document.getElementById('msg').innerHTML="<i style='color:red'>Name must be less than 10 char </i><br>"
+
+  }
+else{
+
+    document.getElementById('msg').innerHTML="<i style='color:green'>Name is fine </i><br>"
+}
+  }
+    </script>
+</head>
+<body>
+  <div style="text-align: center;">
+      
+   Name :<input type="text" id="uname"><br>
+   <span id="msg"></span>
+   <input type="submit" value="click" onclick="valid()"> 
+    </div>
+
+</body>
+</html>

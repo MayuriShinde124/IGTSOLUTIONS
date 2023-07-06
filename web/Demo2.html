@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+        function cal(value)
+        {
+            a=parseInt(document.f2.a.value);
+            b=parseInt(document.f2.b.value);
+            if(value=="add")
+            {
+                result=
+                a+b;
+            document.f2.result.value=result;
+            }
+            else if(value=="sub")
+            {
+                result=a-b;
+            document.f2.result.value=result;
+            }
+            else if(value=="mul")
+            {
+                result=a*b;
+            document.f2.result.value=result;
+
+            }
+            else
+            {
+                result=a/b;
+            document.f2.result.value=result;
+            }
+            
+
+        }
+        </script>
+</head>
+<body>
+    <marquee onmouseover="stop()" onmouseout="start()"><h1>hii welcome to web application</h1></marquee>
+
+    <div style="text-align: center;">
+        <h1>hii please login</h1>
+       
+
+    <form name="f2">
+        A :<input type="text" name="a"><br>
+       B :<input type="text" name="b"><br>
+        Result:<input type="text" name="result"><br>
+        <input type="button" value="add" onclick="cal(value)">    
+        <input type="button" value="sub" onclick="cal(value)"> 
+        <input type="button" value="mul" onclick="cal(value)"> 
+        <input type="button" value="div" onclick="cal(value)"> 
+    </form>
+        </div>
+    
+</body>
+</html>
