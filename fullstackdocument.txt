@@ -1,0 +1,46 @@
+==============================================================================================================
+            JAVA Full satck
+
+ 
+
+html                         HTML /CSS/JS                 HTML CSS JS / Angualr 
+css
+js
+
+ 
+
+Servlert                    Spring MVC                 Spring boot  
+jsp     
+
+ 
+
+        JDBC                         Hibernate            JPA  
+DB                         Data base                 Data Base 
+===============================================================================================================
+            PYTHON FULL SATCK : 
+HTML /CSS/JS 
+Django
+MYSQL / ORACLE
+=====================================================
+        C# . .net Full Stack 
+html css js
+ASP.net
+ADO.net
+
+ 
+
+mysql/ orcle / SqlServer 
+============================================
+            MEAN  stack 
+HTML. css . js ==== 
+Angualr JS 
+Express JS 
+NODE JS 
+MOngoDB
+============================================
+            MERN  stack 
+HTML. css . js ==== 
+React JS 
+Express JS 
+NODE JS 
+MOngoDB
