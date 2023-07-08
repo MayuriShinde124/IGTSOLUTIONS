@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="emp" class="com.Employee">
+
+		<property name="uid"><value>100</value></property>
+		<property name="name"><value>Mayuri</value></property>
+		<property name="age"><value>21</value></property>
+		<property name="salary"><value>50000</value></property>
+		<property name="desig"><value>Developer</value></property>
+
+	</bean>
+	
+	<bean id="prod" class="com.Product">
+		
+		<constructor-arg name="pid"><value>100</value></constructor-arg>
+		<constructor-arg name="name"><value>oppo</value></constructor-arg>
+		<constructor-arg name="price"><value>21000</value></constructor-arg>
+		<constructor-arg name="pdesc"><value>made in india</value></constructor-arg>
+		
+	</bean>
+</beans>
